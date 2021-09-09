@@ -6120,7 +6120,7 @@ body {
 header nav {
   display: flex;
   padding: 15px;
-  background-color: #044847;
+  background-color: #252525;
 }
 header nav div {
   flex: 1;
@@ -6168,11 +6168,11 @@ section:first-of-type div p {
   margin: auto;
 }
 section:first-of-type div p:first-of-type span:first-of-type {
-  background-color: blue;
+  background-color: #3676BB;
   padding: 2px;
 }
 section:first-of-type div p:first-of-type span:last-of-type {
-  color: blue;
+  color: #3676BB;
 }
 section:first-of-type div p:last-of-type {
   padding: 30px;
@@ -6181,8 +6181,8 @@ section:first-of-type div p:last-of-type {
 
 section:nth-last-of-type(2) {
   display: flex;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 section:nth-last-of-type(2) .row {
   background-color: whitesmoke;
@@ -6201,7 +6201,7 @@ section:nth-last-of-type(2) .row h2 {
   text-transform: uppercase;
 }
 section:nth-last-of-type(2) .row span {
-  color: blue;
+  color: #3676BB;
 }
 section:nth-last-of-type(2) .row p {
   text-align: center;
@@ -6211,7 +6211,7 @@ section:last-of-type {
   display: flex;
   padding: 80px 0 0 0;
   margin-left: 10%;
-  margin-right: 15%;
+  margin-right: 10%;
 }
 section:last-of-type div:first-of-type {
   margin: 0 20px 0 0;
@@ -6224,14 +6224,13 @@ section:last-of-type div h2 {
 section:last-of-type div p:first-of-type {
   text-align: center;
   color: whitesmoke;
-  margin: auto;
 }
 section:last-of-type div p:last-of-type {
   text-align: center;
 }
 section:last-of-type div button {
   color: white;
-  background-color: blue;
+  background-color: #3676BB;
   padding: 10px;
 }
 section:last-of-type .image {
@@ -6241,7 +6240,7 @@ section:last-of-type .image img {
   display: flex;
 }
 section:last-of-type .image div {
-  background-color: blue;
+  background-color: #363B47;
   padding: 15px 0 0 0;
   margin: 0;
 }
@@ -6258,7 +6257,7 @@ footer {
 footer .div-1 {
   text-align: center;
   justify-content: center;
-  background-color: blue;
+  background-color: #3676BB;
   padding: 10px 0 50px 0;
   color: white;
 }
@@ -6273,12 +6272,35 @@ footer .div-1 div:nth-of-type(1) i {
   margin: 8px;
 }
 footer div:nth-of-type(2) {
-  background-color: #044847;
+  background-color: #252525;
   padding: 10px 0;
 }
 footer div:nth-of-type(2) h4 {
   text-align: center;
   color: white;
+}
+
+@media screen and (max-width: 620px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  nav span {
+    margin: 1px 0 0 0;
+  }
+
+  section:nth-of-type(2) {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  section:last-of-type {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
