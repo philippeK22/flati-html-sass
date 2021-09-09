@@ -6112,4 +6112,173 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+body {
+  margin: 0;
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  padding: 15px;
+  background-color: #044847;
+}
+header nav div {
+  flex: 1;
+}
+header nav div h1 {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 20px;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+}
+header nav .lien {
+  text-align: center;
+  margin: 0 15px 0 0;
+}
+header nav .lien a {
+  margin: 0 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: grey;
+}
+header nav .lien span {
+  background-color: blue;
+  padding: 10px;
+}
+header img {
+  width: 100%;
+  display: flex;
+}
+
+section:first-of-type {
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  color: grey;
+}
+section:first-of-type div {
+  padding: 20px;
+}
+section:first-of-type div p {
+  width: 60%;
+  margin: auto;
+}
+section:first-of-type div p:first-of-type span:first-of-type {
+  background-color: blue;
+  padding: 2px;
+}
+section:first-of-type div p:first-of-type span:last-of-type {
+  color: blue;
+}
+section:first-of-type div p:last-of-type {
+  padding: 30px;
+  text-align: center;
+}
+
+section:nth-last-of-type(2) {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+section:nth-last-of-type(2) .row {
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 30px 50px 0 0;
+  padding: 10px 0 10px 0;
+}
+section:nth-last-of-type(2) .row i {
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: white;
+  color: blue;
+  padding: 20px;
+}
+section:nth-last-of-type(2) .row h2 {
+  text-transform: uppercase;
+}
+section:nth-last-of-type(2) .row span {
+  color: blue;
+}
+section:nth-last-of-type(2) .row p {
+  text-align: center;
+}
+
+section:last-of-type {
+  display: flex;
+  padding: 80px 0 0 0;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+section:last-of-type div:first-of-type {
+  margin: 0 20px 0 0;
+  padding: 0 20px 0 0;
+}
+section:last-of-type div h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+section:last-of-type div p:first-of-type {
+  text-align: center;
+  color: whitesmoke;
+  margin: auto;
+}
+section:last-of-type div p:last-of-type {
+  text-align: center;
+}
+section:last-of-type div button {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+}
+section:last-of-type .image {
+  margin: 5px;
+}
+section:last-of-type .image img {
+  display: flex;
+}
+section:last-of-type .image div {
+  background-color: blue;
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+section:last-of-type .image div h2 {
+  color: white;
+}
+section:last-of-type .image div p {
+  padding: 0 0 10px 0;
+}
+
+footer {
+  margin: 100px 0 0 0;
+}
+footer .div-1 {
+  text-align: center;
+  justify-content: center;
+  background-color: blue;
+  padding: 10px 0 50px 0;
+  color: white;
+}
+footer .div-1 h1 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+footer .div-1 div:nth-of-type(1) {
+  font-size: 40px;
+}
+footer .div-1 div:nth-of-type(1) i {
+  margin: 8px;
+}
+footer div:nth-of-type(2) {
+  background-color: #044847;
+  padding: 10px 0;
+}
+footer div:nth-of-type(2) h4 {
+  text-align: center;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
